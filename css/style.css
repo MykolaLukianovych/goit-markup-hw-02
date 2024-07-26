@@ -13,16 +13,17 @@ ul {
 }
 /* #region header */
 .nav-logo {
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.16;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 
 .part-logo {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .nav-list a {
@@ -61,7 +62,7 @@ ul {
   color: #404bbf;
 }
 /* #endregion header */
-
+/* #region hero-section */
 .hero-sec {
   background-color: #2e2f42;
 }
@@ -87,8 +88,7 @@ ul {
 }
 
 .hero-button:hover,
-.hero-button:focus,
-.hero-button:active {
+.hero-button:focus {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #404bbf;
   font-weight: 500;
@@ -97,7 +97,8 @@ ul {
   letter-spacing: 0.04em;
   color: #fff;
 }
-
+/* #endregion hero-section */
+/* #region section 1 */
 .title {
   font-weight: 500;
   font-size: 20px;
@@ -113,16 +114,18 @@ ul {
   letter-spacing: 0.02em;
   color: #434455;
 }
-
+/* #endregion section 1 */
+/* #region section 2 */
 .sec-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
 }
-
+/* #endregion section 2 */
+/* #region footer */
 .foot-sec {
   background: #2e2f42;
 }
@@ -138,8 +141,9 @@ ul {
 .sec-part-logo {
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.16;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
 }
+/* #endregion footer */
