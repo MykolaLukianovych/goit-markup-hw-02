@@ -8,7 +8,8 @@ a {
   text-decoration: none;
 }
 
-ul {
+ul,
+ol {
   list-style-type: none;
 }
 /* #region header */
@@ -22,7 +23,7 @@ ul {
   color: #4d5ae5;
 }
 
-.part-logo {
+.header-logo .part-logo {
   color: #2e2f42;
 }
 
@@ -36,11 +37,8 @@ ul {
 
 .nav-list a:hover,
 .nav-list a:focus,
-.nav-list a:active {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+.contacts-list a:hover,
+.contacts-list a:focus {
   color: #404bbf;
 }
 .contacts {
@@ -48,25 +46,14 @@ ul {
 }
 
 .contacts-list .contacts-list-link {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
-
-.contacts-list a:hover,
-.contacts-list a:focus,
-.contacts-list a:active {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #404bbf;
-}
 /* #endregion header */
 /* #region hero-section */
-.hero-sec {
+.page-hero {
   background-color: #2e2f42;
 }
 
@@ -92,11 +79,6 @@ ul {
 .hero-button:hover,
 .hero-button:focus {
   background: #404bbf;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #fff;
 }
 /* #endregion hero-section */
 /* #region section 1 */
@@ -117,11 +99,11 @@ ul {
 }
 /* #endregion section 1 */
 /* #region section 2 */
-.sec-our-team {
+.page-team {
   background-color: #f4f4fd;
 }
 
-.sec-title {
+.team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -131,29 +113,24 @@ ul {
   text-transform: capitalize;
 }
 
-.team-list {
+.team-item {
   background-color: #ffffff;
 }
 /* #endregion section 2 */
 /* #region footer */
-.foot-sec {
+.page-footer {
   background: #2e2f42;
 }
 
-.foot-text {
+.footer-logo .part-logo {
+  color: #f4f4fd;
+}
+
+.footer-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #f4f4fd;
-}
-
-.sec-part-logo {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: #f4f4fd;
 }
 /* #endregion footer */
